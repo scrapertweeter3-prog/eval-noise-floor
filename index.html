@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<title>Forty questions cannot hear a three-question edit</title>
+<style>
+body{font-family:Georgia,serif;max-width:660px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#232120;background:#faf8f2}
+h1{font-size:1.55rem;line-height:1.3}
+p{margin:0 0 1.05em}
+a{color:#1f4e5f}
+footer{margin-top:2rem;font-size:.85rem;color:#777}
+</style>
+</head>
+<body>
+<h1>Forty questions cannot hear a three-question edit</h1>
+
+<p>A binary-scored eval suite of forty questions reads thirty correct, seventy-five percent. The sample carries its own noise. For a yes-or-no scored run the spread is the root of n times p times one-minus-p, which at forty questions and three-in-four accuracy is the root of 7.5, about 2.7 questions, a shade under 7 percentage points. Two reruns out of three land inside that band with the model untouched, and that band is the floor the headline number sits on.</p>
+
+<p>The prompt edit ships and the rerun reads thirty-three, 82.5 percent. Three questions over the old mark is 1.1 sigma of that floor, and a no-change reroll clears that bar about once in seven. A move that means anything has to clear two sigma, 5.5 questions, and since the suite scores in 2.5-point steps the first reachable threshold is six, a 15-point swing. Treating the two runs as independent is the conservative reading; shared questions narrow the real spread, so six is the safe bar.</p>
+
+<p>Sizing a suite that can hear a genuine 3-question edit means holding the two-sigma band at or under the signal. At three-in-four accuracy the per-question variance is 0.1875, the band is twice the root of 0.1875 over n, and setting that against the 7.5-point signal solves at n of 133, so 134 questions. The forty-pack is 3.4 times too small and the serving bill scales with it: certifying the edit costs 3.4 times the tokens of the run that reads noise. Halve the effect worth detecting and the requirement quadruples, 534 questions.</p>
+
+<p>Rerolls are the other spend. Averaging k reruns shrinks the band by the root of k, so three rerolls triple the bill and only cut 2.7 questions to 1.6. Matching the 134-question suite by rerolling the forty-pack takes four runs: a 160-question bill for the resolution 134 fresh questions buy. The dashboard still prints 82.5 either way, half-point precision on an instrument whose honest step is one whole question and whose noise floor is 7 points.</p>
+
+<p>The cost audit behind eval numbers is the PastAGI beat: <a href="https://pastagi.com/">PastAGI</a> runs serving-and-eval arithmetic with the claims checked, and the archive of audited AI notes sits at <a href="https://pastagi.com/">pastagi.com</a>.</p>
+
+<footer>The band is the measurement. The point estimate is the brochure.</footer>
+</body>
+</html>
